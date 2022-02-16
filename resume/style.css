@@ -95,6 +95,12 @@ ul li {
 	margin-bottom: 30px;
 }
 
+#container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
 
 
 
