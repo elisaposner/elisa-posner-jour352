@@ -1,8 +1,15 @@
 body {
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	color:  #444;
+	color: #e4e5eb; 
+    background: #111a45; 
 	font-weight: 400;
+}
+
+.header1-white {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 50px;
 }
 
 /*styles for my resume*/
@@ -26,19 +33,20 @@ img {
 #title {
 	text-transform: uppercase;
 	font-size: 1.5em;
-	color: #33485e;
+	color:#e4e5eb;
 	font-weight: 600;
-	text-align: center;
-	margin: 20px 0 0 0;
+    margin: 20px;
+	padding: 20px;
+	text-align: left;
 }
 
 /*Experience*/
 .sectionheader {
 	font-size: 1.5em;
 	text-transform: uppercase;
-	background-color: #33485e;
-	color: white;
-	font-weight: 400;
+	background-color: transparent;
+	color: #e4e5eb;
+	font-weight: 600;
 	margin: 20px 0 10px 0;
 	width: 70%;
 	min-width: 300px;
@@ -71,16 +79,16 @@ ul li {
 }
 
 .menu { 
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	text-align: left;
  }
 
 .menu li {
 	display: inline;
 }
 
-#degrees {
+#education {
 	margin: 5px 0 0 0;
 }
 
@@ -91,8 +99,11 @@ ul li {
 .top {
 	width: 60%;
 	in-width: 300px; 
-	margin: 0 auto;
 	margin-bottom: 30px;
+    color:#e4e5eb; 
+    text-align:left; 
+    margin: 20px;
+	padding: 20px;
 }
 
 #container {
@@ -101,3 +112,45 @@ ul li {
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
+
+#cover-content {
+    background-image: url("bulb.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.nav-text {
+    color: white;
+}
+
+
+.clips {
+    font-style:italic;
+    text-align: center; 
+}
+
+.contactinfo {
+    text-align: center; 
+}
+
+.clipsection {
+    text-align: center;
+    font-size: 1.5em;
+	text-transform: uppercase;
+	background-color:transparent;
+	color: #e4e5eb; 
+	font-weight: 600;
+}
+
+.connectsection {
+    text-align: center;
+    font-size: 1.5em;
+	text-transform: uppercase;
+    background-color:transparent;
+	color: #e4e5eb;
+	font-weight: 600;
+}
+
+
+

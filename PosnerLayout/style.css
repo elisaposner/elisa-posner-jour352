@@ -1,0 +1,65 @@
+
+
+#content {
+  margin: 0 auto;
+  width: 900px; 
+} 
+
+.img-banner {
+    height:  200px;
+    width: 100%;
+    padding-bottom: 10px;   
+}
+
+body {
+    font-family: Georgia, Serif;
+    font-size: 13px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    margin-left: 50px; 
+    padding-left: 15px; 
+    border-left: 4px solid #ccc;
+    color: black;
+    font-size: 1.5em;
+}
+
+#headline{
+    font-style: Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+.img-sarah {
+    width:  600px;
+    ;
+}
+
+.photo-credit {
+    color: gray;
+}
+
+.spacecraft-graphic {
+    width: 600px;
+}
+
+.img-mars { 
+    width: 600px;
+ }
+
+ .img-satellite{
+    width: 600px;
+ }
+
+
+
+
