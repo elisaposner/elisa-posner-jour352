@@ -183,7 +183,7 @@ ul li {
 	color: #e4e5eb; 
 	font-weight: 400; 
 	font-size: 1.25em;
-	text-transform: lowercase;
+	text-transform: capitalize;
 }
 
 
