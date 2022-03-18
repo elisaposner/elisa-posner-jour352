@@ -14,6 +14,10 @@ body {
 
 /*styles for my resume*/
 
+#lead{
+	text-align: left;
+}
+
 /*banner name at top*/
 #name {
 	font-size: 3em;
@@ -27,7 +31,9 @@ body {
 }
 
 img {
-	display: none;
+	display:  none;
+	width: 600px;
+	height: 200px;
 }
 
 #title {
@@ -125,7 +131,7 @@ ul li {
 }
 
 
-.clips {
+.projects {
     font-style:italic;
     text-align: center; 
 }
@@ -134,22 +140,50 @@ ul li {
     text-align: center; 
 }
 
-.clipsection {
-    text-align: center;
-    font-size: 1.5em;
+.projectsection {
+	margin: 20px;
+	padding: 20px;
+    text-align: left-align;
 	text-transform: uppercase;
 	background-color:transparent;
 	color: #e4e5eb; 
-	font-weight: 600;
+	font-weight: 400; 
+	font-size: 1.25em;
+	
+}
+
+.projectlinks {
+	margin: 20px;
+	padding: 20px;
+    text-align: left-align;
+	font-style: italic;
+	background-color:transparent;
+	color: #e4e5eb; 
+	font-weight: 400; 
+	font-size: 1.25em;
 }
 
 .connectsection {
-    text-align: center;
-    font-size: 1.5em;
+	margin: 20px;
+	padding: 20px;
+    text-align: left-align;
 	text-transform: uppercase;
     background-color:transparent;
 	color: #e4e5eb;
-	font-weight: 600;
+	font-weight: 400; 
+	font-size: 1.25em;
+}
+
+.connectlinks {
+	margin: 20px;
+	padding: 20px;
+    text-align: left-align;
+	font-style: italic;
+	background-color:transparent;
+	color: #e4e5eb; 
+	font-weight: 400; 
+	font-size: 1.25em;
+	text-transform: lowercase;
 }
 
 
