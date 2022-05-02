@@ -1,0 +1,41 @@
+
+
+
+body {
+	margin: 0 auto;
+  	width: 900px; 
+	font-family: Georgia; 
+	font-size: 1em; 
+}
+
+.The Coronavirus Pandemic {
+	color: #9C0505; 
+}
+
+
+blockquote {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left: 50px; 
+    padding-left: 50px; 
+    border-left: 4px solid #ccc;
+    color: #black;
+    font-size: 1.2em;
+}
+
+
+
+.pictures {
+	display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fully-vax-chart {
+	display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
