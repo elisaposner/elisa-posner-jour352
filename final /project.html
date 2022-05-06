@@ -8,12 +8,12 @@
 
 <title>Bootstrap Template</title>
 <meta name="description" content="Merrill College of Journalism, UMD">
-<meta name="author" content="Elisa Posner">
+<meta name="author" content="Elisa Posner"> 
 
 <!-- Bootstrap CSS and JavaScript -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
 
 
 
@@ -33,29 +33,29 @@
 <body>
 
 <!--masthead--> 
+<div class="masthead">
   <img class= "masthead" src= "images/header.png" alt="Banner of The Washington Weekly">
+</div>
 
-<!--navbar code below--> 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">The Coronavirus Pandemic</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+<main>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="beginning">Beginning of Story</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"> Home <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"> Latest Coronavirus News </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"> Coronavirus Data </a>
-      </li>
-    </ul>
+    </button> 
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+         <a class="nav-link" href="uncomfortable"> Uncomfortable but Manageable <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pcr"> PCR Accuracy </a>
+        </li>
+      </ul>
   </div>
 </nav>
-<!--End of nav bar code--> 
+</div>
 
 
 
@@ -75,8 +75,8 @@
   	<br>
   	<br> 
   	<br> 
-  <div class="story-text">
-    <h1 class="display-5 fw-bold">Washington area's battle with Covid-19 lulls, boards still 'worry' </h1>
+  
+    <h1 id="beginning" class="display-5 fw-bold">Washington area's battle with Covid-19 lulls, boards still 'worry' </h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Updated April 29, 2022</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -89,16 +89,13 @@
         end of button code--> 
       </div>
       </div>
-    </div>
   </div>
 <!--end of centered hero code-->
 
 
 
 
-<br>
-<br>
-<br>
+
 
 <!-- noting everything below and will decide where to place it later  
 
@@ -122,7 +119,7 @@ What’s different this time is that, for many residents, it is harder to monito
 <br> 
 
 
-<!--related links code below--> 
+<!--related links code below 
 <div class="container"> 
     <div class="row"> 
         <div class="col-md-2"> 
@@ -130,6 +127,8 @@ What’s different this time is that, for many residents, it is harder to monito
   </div>
 </div>
 </div>
+--> 
+
 
 
 
@@ -158,6 +157,7 @@ Those rates, driven by the BA.2 subvariant of omicron, are far below the stagger
 <br>  
 
 <p><blockquote><b> “We do worry,” Montgomery County Executive Marc Elrich (D) said, “because at some point, you can’t just let this thing run up uncontrolled." </blockquote></p></b>
+</blockquote>
 
 <br>
 <br>
@@ -182,6 +182,10 @@ Recent Maryland state data show that Montgomery county has the highest vaccinaio
 “We do worry,” Montgomery County Executive Marc Elrich (D) said, “because at some point, you can’t just let this thing run up uncontrolled.”
 <br> 
 <br> 
+<br>
+<div id="subhead">
+    <p><b>Uncomfortable but Manageable</b></p>
+</div>
 Some public officials are themselves sick with the virus, after having avoided it for the first two years.
 <br>
 <br>   
@@ -230,6 +234,11 @@ Officials say they still have ways to gauge their levels of community transmissi
 “There have always been more cases than what our data represents,” O’Donnell said. “The question now is, how much has it drifted with the very large distribution of at-home tests?”
 <br>
 <br>   
+<br>
+<div id="subhead">
+    <p><b>PCR Accuracy</b></p>
+</div>
+<br>
 Because people often use PCR testing to confirm the results of an at-home test, a bump in PCR test positivity would still signal a bump in community transmission, said Earl Stoddard, the county’s assistant chief administrative officer.
 <br>
 <br>   
@@ -284,8 +293,6 @@ But regardless, she and Sehgal both said, they might always wear masks in some s
 <br>  
 
 
-
-
-
 </body>
+</main>
 </html>
