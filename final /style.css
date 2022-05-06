@@ -1,4 +1,8 @@
 
+.container-fluid { 
+    margin: 0 auto;
+    width: 900px;
+ }
 
 
 main {
@@ -8,6 +12,21 @@ main {
 	font-size: 1em; 
 }
 
+
+
+.navbar navbar-expand-lg navbar-light bg-light{
+
+margin: 0 auto;
+    width: 900px; 
+    font-family: Georgia; 
+    font-size: 1em; 
+    align: center;
+
+
+}
+
+/*
+
 .nav-bar {
     margin: 0 auto;
     width: 900px; 
@@ -15,6 +34,7 @@ main {
     font-size: 1em; 
     align-self: center;
 }
+*/
 
 .masthead {
     height:  60vh;
