@@ -59,12 +59,26 @@ figure {
 }
 
 
-.fully-vax-chart {
+.fully-vax-map {
 	display: block;
-    width: 500px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.case-chart-DC { 
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .case-number-table { 
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .sectionheader {
     font-weight: 300;
@@ -72,4 +86,10 @@ figure {
     width: 30%;
     min-width: 100px;
 }
+
+.related-links { 
+    font-style: italic;
+    color: #550c0c;
+    font-size: 1.1em;
+ }
 
