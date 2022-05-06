@@ -12,6 +12,12 @@ body {
 	color: #9C0505; 
 }
 
+.masthead {
+    height:  500px;
+    width: 100%;
+    padding-bottom: 10px; 
+}
+
 
 blockquote {
     margin-top: 20px; 
@@ -47,5 +53,12 @@ blockquote {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.sectionheader {
+    font-weight: 300;
+    margin: 10px 0 5px 0;
+    width: 30%;
+    min-width: 100px;
 }
 
